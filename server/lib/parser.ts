@@ -1,5 +1,6 @@
 import fs from "fs/promises";
-import { PDFDocument } from "pdf-lib";
+import pkg from "pdf-lib";
+const { PDFDocument } = pkg;
 import mammoth from "mammoth";
 
 /**
